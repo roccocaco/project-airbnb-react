@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    background-color: rgb(210, 7, 7);
+}
+
+
+.footer h5 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #f1f1f1;
+    font-weight: bolder;
+}
+
+.footer p {
+    color: #f1f1f1;
+}
+
+.footer a {
+    color: #f1f1f1; /* Cor inicial do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+  
+
+  

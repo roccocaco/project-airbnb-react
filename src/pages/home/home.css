@@ -1,0 +1,51 @@
+img {
+    width: 300px;
+    height: 270px;
+    border-radius: 10px;
+}
+
+.chales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.chale {
+    padding: 15px;
+}
+
+.chale img {
+    margin-top: 50px;
+}
+
+.chale h5 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.typeOfPlace {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    background-color: #fefafa;
+    height: 80px;
+    align-items: center;
+    position: sticky;
+    top: 0; /* Posição a partir do topo onde a barra ficará fixa */
+    padding: 10px 0; /* Espaçamento interno */
+    z-index: 1000; /* Evita que outros elementos sobreponham */
+}
+
+.place {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: border-bottom 0.3s ease;
+    /* Suaviza a transição do traço */
+}
+
+.place:hover {
+    border-bottom: 3px solid #ddd9d9;
+    font-weight: bold;
+}

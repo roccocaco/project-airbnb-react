@@ -1,12 +1,33 @@
 nav {
     display: flex;
     justify-content: space-around;
+    background-color: rgb(210, 7, 7);
+    height: 100px;
+    align-items: center;
 }
 
 nav a {
     text-decoration: none;
+    color: #f1f1f1;
 }
 
 .active {
     font-weight: 600;
 }
+
+.cadastro {
+    display: flex;
+    gap: 70px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+.search-input {
+    margin-right: 10px; /* Adiciona espaço entre o input e o ícone */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
